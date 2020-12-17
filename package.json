@@ -1,0 +1,21 @@
+{
+  "name": "AWS VPC WebApp Project",
+  "version": "1.0.0",
+  "description": "This project is an exercise in bringing a two server Node.js/Redis web application to production in an AWS VPC environment.",
+  "main": "app.js",
+  "scripts": {
+	"start": "nodemon app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wjb313/AWSVPC.git"
+  },
+  "keywords": [],
+  "author": "wjb",
+  "license": "Unlicense",
+  "dependencies": {
+  }
+}
+
+
+
