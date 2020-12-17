@@ -1,21 +1,30 @@
 {
-  "name": "AWS VPC WebApp Project",
+  "name": "aws-vpc-redis-twitter",
   "version": "1.0.0",
   "description": "This project is an exercise in bringing a two server Node.js/Redis web application to production in an AWS VPC environment.",
   "main": "app.js",
   "scripts": {
-	"start": "nodemon app.js"
-},
+    "start": "nodemon app.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wjb313/AWSVPC.git"
+    "url": "git+https://github.com/wjb313/AWSVPC.git"
   },
   "keywords": [],
   "author": "wjb",
   "license": "Unlicense",
   "dependencies": {
-  }
+    "async-redis": "^1.1.7",
+    "bcrypt": "^5.0.0",
+    "connect-redis": "^5.0.0",
+    "date-fns": "^2.16.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pug": "^3.0.0",
+    "redis": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/wjb313/AWSVPC/issues"
+  },
+  "homepage": "https://github.com/wjb313/AWSVPC#readme"
 }
-
-
-
